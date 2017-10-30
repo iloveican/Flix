@@ -14,13 +14,13 @@ import Flix
 import RxKeyboard
 
 class CollectionViewController: UIViewController {
-    
+
     let collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: UICollectionViewFlowLayout())
     let disposeBag = DisposeBag()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         self.view.backgroundColor = UIColor.white
         self.view.addSubview(collectionView)
         collectionView.backgroundColor = UIColor.lightGray
@@ -29,26 +29,31 @@ class CollectionViewController: UIViewController {
         collectionView.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor).isActive = true
         collectionView.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor).isActive = true
         collectionView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor).isActive = true
-        
+
         collectionView.backgroundColor = UIColor(named: "Background")
-        
+
         let viewLayout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
         viewLayout.minimumLineSpacing = 0.5
         viewLayout.estimatedItemSize = CGSize.zero
-        
+
         collectionView.alwaysBounceVertical = true
-        
+
     }
+
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        collectionView.collectionViewLayout.invalidateLayout()
+    }
+
 }
 
 class TableViewController: UIViewController {
-    
+
     let tableView = UITableView(frame: .zero, style: .grouped)
     let disposeBag = DisposeBag()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         self.view.backgroundColor = UIColor.white
         self.view.addSubview(tableView)
         tableView.translatesAutoresizingMaskIntoConstraints = false
@@ -61,11 +66,11 @@ class TableViewController: UIViewController {
         tableView.rowHeight = 44
         tableView.sectionFooterHeight = 0.1
         tableView.sectionHeaderHeight = 0.1
-        
+
         tableView.estimatedRowHeight = 0
         tableView.estimatedSectionFooterHeight = 0
         tableView.estimatedSectionHeaderHeight = 0
-        
+
         RxKeyboard.instance.visibleHeight
             .drive(onNext: { [unowned self] keyboardVisibleHeight in
                 self.tableView.contentInset.bottom = keyboardVisibleHeight

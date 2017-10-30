@@ -13,13 +13,13 @@ import RxDataSources
 import Flix
 
 class ExampleListViewController: CollectionViewController {
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         typealias UIViewControllerCreater = () -> UIViewController
         typealias Model = TextListProviderModel<UIViewControllerCreater>
-        
+
         let iconProvider = UniqueCustomCollectionViewProvider()
         let iconImageView = UIImageView(image: #imageLiteral(resourceName: "Flix Icon"))
         iconProvider.backgroundView = UIView()
@@ -33,15 +33,16 @@ class ExampleListViewController: CollectionViewController {
         iconImageView.translatesAutoresizingMaskIntoConstraints = false
         iconImageView.centerXAnchor.constraint(equalTo: iconProvider.contentView.centerXAnchor).isActive = true
         iconImageView.centerYAnchor.constraint(equalTo: iconProvider.contentView.centerYAnchor).isActive = true
-        
+
         iconProvider.tap
             .subscribe(onNext: {
                 UIApplication.shared.open(URL(string: "https://github.com/DianQK/Flix")!, options: [:], completionHandler: nil)
             })
             .disposed(by: disposeBag)
-        
+
         let textListProvider = TextListProvider(
             items: [
+                Model(title: "Basic Example", desc: "", value: { return BasicListViewController() }),
                 Model(title: "Settings", desc: "", value: { return SettingsViewController() }),
                 Model(title: "All Events", desc: "", value: { return EventListViewController() }),
                 Model(title: "Do Not Disturb", desc: "", value: { return DoNotDisturbSettingsViewController() }),
@@ -58,7 +59,7 @@ class ExampleListViewController: CollectionViewController {
                 self.show(model.value(), sender: nil)
             })
             .disposed(by: disposeBag)
-        
+
         self.collectionView.flix.animatable.build([iconProvider, textListProvider])
 
     }

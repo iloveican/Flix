@@ -101,6 +101,25 @@
 		9179C9641FA6D60F00B4C21E /* TableViewGroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179C9631FA6D60F00B4C21E /* TableViewGroupProvider.swift */; };
 		917E2C301FA6E34800765F95 /* CollectionViewGroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C2F1FA6E34800765F95 /* CollectionViewGroupProvider.swift */; };
 		917E2C321FA6E35700765F95 /* AnimatableCollectionViewGroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C311FA6E35700765F95 /* AnimatableCollectionViewGroupProvider.swift */; };
+		917E2C351FA7063200765F95 /* BasicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C341FA7063200765F95 /* BasicListViewController.swift */; };
+		917E2C371FA7079500765F95 /* TableViewMultiNodeProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C361FA7079500765F95 /* TableViewMultiNodeProviderExampleViewController.swift */; };
+		917E2C391FA7088B00765F95 /* AnimatableTableViewMultiNodeProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C381FA7088B00765F95 /* AnimatableTableViewMultiNodeProviderExampleViewController.swift */; };
+		917E2C3B1FA708C000765F95 /* TableViewProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C3A1FA708C000765F95 /* TableViewProviderExampleViewController.swift */; };
+		917E2C3D1FA709DB00765F95 /* AnimatableTableViewProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C3C1FA709DB00765F95 /* AnimatableTableViewProviderExampleViewController.swift */; };
+		917E2C3F1FA709EB00765F95 /* UniqueAnimatableTableViewProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C3E1FA709EB00765F95 /* UniqueAnimatableTableViewProviderExampleViewController.swift */; };
+		917E2C411FA70A1400765F95 /* TableViewSectionProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C401FA70A1400765F95 /* TableViewSectionProviderExampleViewController.swift */; };
+		917E2C431FA70A2100765F95 /* AnimatableTableViewSectionProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C421FA70A2100765F95 /* AnimatableTableViewSectionProviderExampleViewController.swift */; };
+		917E2C451FA70A3600765F95 /* UniqueCustomTableViewProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C441FA70A3600765F95 /* UniqueCustomTableViewProviderExampleViewController.swift */; };
+		917E2C471FA70A5400765F95 /* UniqueCustomTableViewSectionProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C461FA70A5400765F95 /* UniqueCustomTableViewSectionProviderExampleViewController.swift */; };
+		917E2C651FA70BCF00765F95 /* AnimatableCollectionSectionProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C5C1FA70BCF00765F95 /* AnimatableCollectionSectionProviderExampleViewController.swift */; };
+		917E2C661FA70BCF00765F95 /* AnimatableCollectionViewProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C5D1FA70BCF00765F95 /* AnimatableCollectionViewProviderExampleViewController.swift */; };
+		917E2C671FA70BCF00765F95 /* UniqueCustomCollectionViewProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C5E1FA70BCF00765F95 /* UniqueCustomCollectionViewProviderExampleViewController.swift */; };
+		917E2C681FA70BCF00765F95 /* CollectionViewMultiNodeProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C5F1FA70BCF00765F95 /* CollectionViewMultiNodeProviderExampleViewController.swift */; };
+		917E2C691FA70BCF00765F95 /* UniqueAnimatableCollectionViewProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C601FA70BCF00765F95 /* UniqueAnimatableCollectionViewProviderExampleViewController.swift */; };
+		917E2C6A1FA70BCF00765F95 /* AnimatableCollectionViewMultiNodeProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C611FA70BCF00765F95 /* AnimatableCollectionViewMultiNodeProviderExampleViewController.swift */; };
+		917E2C6B1FA70BCF00765F95 /* CollectionViewProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C621FA70BCF00765F95 /* CollectionViewProviderExampleViewController.swift */; };
+		917E2C6C1FA70BCF00765F95 /* CollectionViewSectionProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C631FA70BCF00765F95 /* CollectionViewSectionProviderExampleViewController.swift */; };
+		917E2C6D1FA70BCF00765F95 /* UniqueCustomCollectionViewSectionProviderExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C641FA70BCF00765F95 /* UniqueCustomCollectionViewSectionProviderExampleViewController.swift */; };
 		91F3F3EC1F99EAA500E6BE8F /* TableViewMoveable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3F3EB1F99EAA500E6BE8F /* TableViewMoveable.swift */; };
 		91F3F3EE1F99EFE500E6BE8F /* ControlCenterCustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3F3ED1F99EFE500E6BE8F /* ControlCenterCustomizeViewController.swift */; };
 /* End PBXBuildFile section */
@@ -228,6 +247,25 @@
 		9179C9631FA6D60F00B4C21E /* TableViewGroupProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewGroupProvider.swift; sourceTree = "<group>"; };
 		917E2C2F1FA6E34800765F95 /* CollectionViewGroupProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewGroupProvider.swift; sourceTree = "<group>"; };
 		917E2C311FA6E35700765F95 /* AnimatableCollectionViewGroupProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableCollectionViewGroupProvider.swift; sourceTree = "<group>"; };
+		917E2C341FA7063200765F95 /* BasicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicListViewController.swift; sourceTree = "<group>"; };
+		917E2C361FA7079500765F95 /* TableViewMultiNodeProviderExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewMultiNodeProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C381FA7088B00765F95 /* AnimatableTableViewMultiNodeProviderExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableTableViewMultiNodeProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C3A1FA708C000765F95 /* TableViewProviderExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C3C1FA709DB00765F95 /* AnimatableTableViewProviderExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableTableViewProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C3E1FA709EB00765F95 /* UniqueAnimatableTableViewProviderExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueAnimatableTableViewProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C401FA70A1400765F95 /* TableViewSectionProviderExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewSectionProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C421FA70A2100765F95 /* AnimatableTableViewSectionProviderExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableTableViewSectionProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C441FA70A3600765F95 /* UniqueCustomTableViewProviderExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueCustomTableViewProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C461FA70A5400765F95 /* UniqueCustomTableViewSectionProviderExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueCustomTableViewSectionProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C5C1FA70BCF00765F95 /* AnimatableCollectionSectionProviderExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableCollectionSectionProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C5D1FA70BCF00765F95 /* AnimatableCollectionViewProviderExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableCollectionViewProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C5E1FA70BCF00765F95 /* UniqueCustomCollectionViewProviderExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueCustomCollectionViewProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C5F1FA70BCF00765F95 /* CollectionViewMultiNodeProviderExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewMultiNodeProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C601FA70BCF00765F95 /* UniqueAnimatableCollectionViewProviderExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueAnimatableCollectionViewProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C611FA70BCF00765F95 /* AnimatableCollectionViewMultiNodeProviderExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatableCollectionViewMultiNodeProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C621FA70BCF00765F95 /* CollectionViewProviderExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C631FA70BCF00765F95 /* CollectionViewSectionProviderExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewSectionProviderExampleViewController.swift; sourceTree = "<group>"; };
+		917E2C641FA70BCF00765F95 /* UniqueCustomCollectionViewSectionProviderExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueCustomCollectionViewSectionProviderExampleViewController.swift; sourceTree = "<group>"; };
 		91F3F3EB1F99EAA500E6BE8F /* TableViewMoveable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewMoveable.swift; sourceTree = "<group>"; };
 		91F3F3ED1F99EFE500E6BE8F /* ControlCenterCustomizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCenterCustomizeViewController.swift; sourceTree = "<group>"; };
 		BA63D7D73F2D9CEB8F63F458 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -504,6 +542,7 @@
 			children = (
 				2617C2611F84D0FD007F8228 /* GitHubSigup */,
 				563316341FAB6A5E00627F5A /* Tutorial */,
+				917E2C331FA7061900765F95 /* Basic */,
 				5665F1F21FA5B636009225F7 /* CalendarEvent */,
 				569294F81F88E37E00FA1493 /* DeleteItemViewController.swift */,
 				26BAF0321F8499B8009A4401 /* LoginViewController.swift */,
@@ -542,6 +581,48 @@
 				917E2C311FA6E35700765F95 /* AnimatableCollectionViewGroupProvider.swift */,
 			);
 			path = Group;
+			sourceTree = "<group>";
+		};
+		917E2C331FA7061900765F95 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				917E2C341FA7063200765F95 /* BasicListViewController.swift */,
+				917E2C481FA70A5B00765F95 /* TableView */,
+				917E2C5B1FA70B6300765F95 /* CollectionView */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		917E2C481FA70A5B00765F95 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				917E2C361FA7079500765F95 /* TableViewMultiNodeProviderExampleViewController.swift */,
+				917E2C381FA7088B00765F95 /* AnimatableTableViewMultiNodeProviderExampleViewController.swift */,
+				917E2C3A1FA708C000765F95 /* TableViewProviderExampleViewController.swift */,
+				917E2C3C1FA709DB00765F95 /* AnimatableTableViewProviderExampleViewController.swift */,
+				917E2C3E1FA709EB00765F95 /* UniqueAnimatableTableViewProviderExampleViewController.swift */,
+				917E2C401FA70A1400765F95 /* TableViewSectionProviderExampleViewController.swift */,
+				917E2C421FA70A2100765F95 /* AnimatableTableViewSectionProviderExampleViewController.swift */,
+				917E2C441FA70A3600765F95 /* UniqueCustomTableViewProviderExampleViewController.swift */,
+				917E2C461FA70A5400765F95 /* UniqueCustomTableViewSectionProviderExampleViewController.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		917E2C5B1FA70B6300765F95 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				917E2C5F1FA70BCF00765F95 /* CollectionViewMultiNodeProviderExampleViewController.swift */,
+				917E2C611FA70BCF00765F95 /* AnimatableCollectionViewMultiNodeProviderExampleViewController.swift */,
+				917E2C621FA70BCF00765F95 /* CollectionViewProviderExampleViewController.swift */,
+				917E2C5D1FA70BCF00765F95 /* AnimatableCollectionViewProviderExampleViewController.swift */,
+				917E2C601FA70BCF00765F95 /* UniqueAnimatableCollectionViewProviderExampleViewController.swift */,
+				917E2C631FA70BCF00765F95 /* CollectionViewSectionProviderExampleViewController.swift */,
+				917E2C5C1FA70BCF00765F95 /* AnimatableCollectionSectionProviderExampleViewController.swift */,
+				917E2C5E1FA70BCF00765F95 /* UniqueCustomCollectionViewProviderExampleViewController.swift */,
+				917E2C641FA70BCF00765F95 /* UniqueCustomCollectionViewSectionProviderExampleViewController.swift */,
+			);
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 		DEA53283DE1AFF3A56A6F7A9 /* Pods */ = {
@@ -814,38 +895,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				564217881FAE0CED00BCF993 /* AppsProvider.swift in Sources */,
+				917E2C451FA70A3600765F95 /* UniqueCustomTableViewProviderExampleViewController.swift in Sources */,
 				562594521FA0CC9800BF5756 /* GeolocationService.swift in Sources */,
+				917E2C6D1FA70BCF00765F95 /* UniqueCustomCollectionViewSectionProviderExampleViewController.swift in Sources */,
 				26424F701F8537EC00E2834D /* UniqueMessageTableViewProvider.swift in Sources */,
 				2670E6A61F83EE5E003A5BA7 /* UniqueSwitchProvider.swift in Sources */,
 				566300BE1FA4E41B00A35CFA /* StartAndEndDateGroupProvider.swift in Sources */,
 				2670E69C1F83EE40003A5BA7 /* DoNotDisturbSettingsViewController.swift in Sources */,
+				917E2C6B1FA70BCF00765F95 /* CollectionViewProviderExampleViewController.swift in Sources */,
+				917E2C671FA70BCF00765F95 /* UniqueCustomCollectionViewProviderExampleViewController.swift in Sources */,
 				26424F721F853AEC00E2834D /* UniqueTextFieldTableViewProvider.swift in Sources */,
 				5622F6E51FA0E16000326201 /* LocalSearchProvider.swift in Sources */,
 				2617C26A1F84D0FD007F8228 /* Protocols.swift in Sources */,
+				917E2C351FA7063200765F95 /* BasicListViewController.swift in Sources */,
 				2617C2761F84D1BF007F8228 /* ActivityIndicator.swift in Sources */,
 				26BAF0331F8499B8009A4401 /* LoginViewController.swift in Sources */,
 				2670E6A21F83EE5E003A5BA7 /* RadioProvider.swift in Sources */,
 				2666E4041F874113006F1918 /* Operators.swift in Sources */,
 				2617C2681F84D0FD007F8228 /* GitHubSignupViewController.swift in Sources */,
+				917E2C6C1FA70BCF00765F95 /* CollectionViewSectionProviderExampleViewController.swift in Sources */,
+				917E2C371FA7079500765F95 /* TableViewMultiNodeProviderExampleViewController.swift in Sources */,
 				562594561FA0CCA800BF5756 /* RxCLLocationManagerDelegateProxy.swift in Sources */,
+				917E2C661FA70BCF00765F95 /* AnimatableCollectionViewProviderExampleViewController.swift in Sources */,
 				5687446D1FA3745200B5193C /* EventListViewController.swift in Sources */,
+				917E2C3D1FA709DB00765F95 /* AnimatableTableViewProviderExampleViewController.swift in Sources */,
 				566300C11FA4F7B000A35CFA /* SelectTimeZoneViewController.swift in Sources */,
 				563434481FAD64D200727CA1 /* ProfileProvider.swift in Sources */,
 				2670E69F1F83EE5E003A5BA7 /* UniqueCommentTextProvider.swift in Sources */,
 				2617C26C1F84D0FD007F8228 /* BindingExtensions.swift in Sources */,
+				917E2C3F1FA709EB00765F95 /* UniqueAnimatableTableViewProviderExampleViewController.swift in Sources */,
+				917E2C3B1FA708C000765F95 /* TableViewProviderExampleViewController.swift in Sources */,
 				568744711FA3766700B5193C /* TextFieldProvider.swift in Sources */,
 				569294F91F88E37E00FA1493 /* DeleteItemViewController.swift in Sources */,
 				26424F741F853B0A00E2834D /* UniqueButtonTableViewProvider.swift in Sources */,
+				917E2C411FA70A1400765F95 /* TableViewSectionProviderExampleViewController.swift in Sources */,
 				5665F1F11FA5AEF3009225F7 /* EndRepeatSelectViewController.swift in Sources */,
+				917E2C391FA7088B00765F95 /* AnimatableTableViewMultiNodeProviderExampleViewController.swift in Sources */,
 				2617C26B1F84D0FD007F8228 /* DefaultImplementations.swift in Sources */,
 				565726321F9E3AE800D9BEC4 /* StoryboardViewController.swift in Sources */,
 				5665F1ED1FA5AA8F009225F7 /* EndRepeatProvider.swift in Sources */,
+				917E2C681FA70BCF00765F95 /* CollectionViewMultiNodeProviderExampleViewController.swift in Sources */,
 				562075581FA40B10001D8896 /* DateSelectProvider.swift in Sources */,
 				2670E6631F83E1A0003A5BA7 /* ViewController.swift in Sources */,
 				568744751FA381DA00B5193C /* SelectedLocationProvider.swift in Sources */,
 				5626992D1FA51EE600290A70 /* EventOptionProvider.swift in Sources */,
 				563316361FAB6AF300627F5A /* SettingsViewController.swift in Sources */,
 				5665F1EF1FA5AAA8009225F7 /* RepeatGroupProvider.swift in Sources */,
+				917E2C6A1FA70BCF00765F95 /* AnimatableCollectionViewMultiNodeProviderExampleViewController.swift in Sources */,
 				2670E6611F83E1A0003A5BA7 /* AppDelegate.swift in Sources */,
 				5665F1F61FA5CF73009225F7 /* CalendarEventObject.swift in Sources */,
 				2670E6A01F83EE5E003A5BA7 /* TextListProvider.swift in Sources */,
@@ -854,8 +950,12 @@
 				91F3F3EE1F99EFE500E6BE8F /* ControlCenterCustomizeViewController.swift in Sources */,
 				2617C2701F84D15C007F8228 /* Wireframe.swift in Sources */,
 				2670E6A31F83EE5E003A5BA7 /* TextSectionProvider.swift in Sources */,
+				917E2C691FA70BCF00765F95 /* UniqueAnimatableCollectionViewProviderExampleViewController.swift in Sources */,
+				917E2C471FA70A5400765F95 /* UniqueCustomTableViewSectionProviderExampleViewController.swift in Sources */,
 				5687446F1FA374E800B5193C /* EventEditViewController.swift in Sources */,
+				917E2C431FA70A2100765F95 /* AnimatableTableViewSectionProviderExampleViewController.swift in Sources */,
 				2666E4011F869656006F1918 /* NestFormViewController.swift in Sources */,
+				917E2C651FA70BCF00765F95 /* AnimatableCollectionSectionProviderExampleViewController.swift in Sources */,
 				2617C2731F84D18B007F8228 /* String+URL.swift in Sources */,
 				5634344A1FAD64FC00727CA1 /* TableViewProvider.swift in Sources */,
 				568744731FA3792F00B5193C /* SpacingSectionProvider.swift in Sources */,
