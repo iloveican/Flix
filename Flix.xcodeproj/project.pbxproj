@@ -104,6 +104,13 @@
 		9179C9641FA6D60F00B4C21E /* TableViewGroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9179C9631FA6D60F00B4C21E /* TableViewGroupProvider.swift */; };
 		917E2C301FA6E34800765F95 /* CollectionViewGroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C2F1FA6E34800765F95 /* CollectionViewGroupProvider.swift */; };
 		917E2C321FA6E35700765F95 /* AnimatableCollectionViewGroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917E2C311FA6E35700765F95 /* AnimatableCollectionViewGroupProvider.swift */; };
+		91CA220920613324001AFA94 /* LineFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA220820613324001AFA94 /* LineFriendsViewController.swift */; };
+		91CA220B2061338D001AFA94 /* LineExpandSectionTitleHeaderTableViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA220A2061338D001AFA94 /* LineExpandSectionTitleHeaderTableViewProvider.swift */; };
+		91CA220D206134A9001AFA94 /* LineAppsTableViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA220C206134A9001AFA94 /* LineAppsTableViewProvider.swift */; };
+		91CA220F2061366A001AFA94 /* LineFriendsTableViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA220E2061366A001AFA94 /* LineFriendsTableViewProvider.swift */; };
+		91CA22112061382E001AFA94 /* LineIconTableViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA22102061382E001AFA94 /* LineIconTableViewProvider.swift */; };
+		91CA221320613862001AFA94 /* LineFriendRecommendationsTableViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA221220613862001AFA94 /* LineFriendRecommendationsTableViewProvider.swift */; };
+		91CA221520613920001AFA94 /* LineMyProfileTableViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CA221420613920001AFA94 /* LineMyProfileTableViewProvider.swift */; };
 		91F3F3EC1F99EAA500E6BE8F /* TableViewMoveable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3F3EB1F99EAA500E6BE8F /* TableViewMoveable.swift */; };
 		91F3F3EE1F99EFE500E6BE8F /* ControlCenterCustomizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3F3ED1F99EFE500E6BE8F /* ControlCenterCustomizeViewController.swift */; };
 /* End PBXBuildFile section */
@@ -234,6 +241,13 @@
 		9179C9631FA6D60F00B4C21E /* TableViewGroupProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewGroupProvider.swift; sourceTree = "<group>"; };
 		917E2C2F1FA6E34800765F95 /* CollectionViewGroupProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewGroupProvider.swift; sourceTree = "<group>"; };
 		917E2C311FA6E35700765F95 /* AnimatableCollectionViewGroupProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableCollectionViewGroupProvider.swift; sourceTree = "<group>"; };
+		91CA220820613324001AFA94 /* LineFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineFriendsViewController.swift; sourceTree = "<group>"; };
+		91CA220A2061338D001AFA94 /* LineExpandSectionTitleHeaderTableViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineExpandSectionTitleHeaderTableViewProvider.swift; sourceTree = "<group>"; };
+		91CA220C206134A9001AFA94 /* LineAppsTableViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineAppsTableViewProvider.swift; sourceTree = "<group>"; };
+		91CA220E2061366A001AFA94 /* LineFriendsTableViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineFriendsTableViewProvider.swift; sourceTree = "<group>"; };
+		91CA22102061382E001AFA94 /* LineIconTableViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineIconTableViewProvider.swift; sourceTree = "<group>"; };
+		91CA221220613862001AFA94 /* LineFriendRecommendationsTableViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineFriendRecommendationsTableViewProvider.swift; sourceTree = "<group>"; };
+		91CA221420613920001AFA94 /* LineMyProfileTableViewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineMyProfileTableViewProvider.swift; sourceTree = "<group>"; };
 		91F3F3EB1F99EAA500E6BE8F /* TableViewMoveable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewMoveable.swift; sourceTree = "<group>"; };
 		91F3F3ED1F99EFE500E6BE8F /* ControlCenterCustomizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCenterCustomizeViewController.swift; sourceTree = "<group>"; };
 		BA63D7D73F2D9CEB8F63F458 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -510,6 +524,7 @@
 		569848F01F89F2DD00DA1D64 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				91CA220720613305001AFA94 /* Line */,
 				2617C2611F84D0FD007F8228 /* GitHubSigup */,
 				563316341FAB6A5E00627F5A /* Tutorial */,
 				5665F1F21FA5B636009225F7 /* CalendarEvent */,
@@ -559,6 +574,20 @@
 				917E2C311FA6E35700765F95 /* AnimatableCollectionViewGroupProvider.swift */,
 			);
 			path = Group;
+			sourceTree = "<group>";
+		};
+		91CA220720613305001AFA94 /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				91CA220820613324001AFA94 /* LineFriendsViewController.swift */,
+				91CA220A2061338D001AFA94 /* LineExpandSectionTitleHeaderTableViewProvider.swift */,
+				91CA220C206134A9001AFA94 /* LineAppsTableViewProvider.swift */,
+				91CA220E2061366A001AFA94 /* LineFriendsTableViewProvider.swift */,
+				91CA22102061382E001AFA94 /* LineIconTableViewProvider.swift */,
+				91CA221220613862001AFA94 /* LineFriendRecommendationsTableViewProvider.swift */,
+				91CA221420613920001AFA94 /* LineMyProfileTableViewProvider.swift */,
+			);
+			path = Line;
 			sourceTree = "<group>";
 		};
 		DEA53283DE1AFF3A56A6F7A9 /* Pods */ = {
@@ -856,16 +885,20 @@
 				568744711FA3766700B5193C /* TextFieldProvider.swift in Sources */,
 				569294F91F88E37E00FA1493 /* DeleteItemViewController.swift in Sources */,
 				26424F741F853B0A00E2834D /* UniqueButtonTableViewProvider.swift in Sources */,
+				91CA221520613920001AFA94 /* LineMyProfileTableViewProvider.swift in Sources */,
 				5665F1F11FA5AEF3009225F7 /* EndRepeatSelectViewController.swift in Sources */,
 				2617C26B1F84D0FD007F8228 /* DefaultImplementations.swift in Sources */,
 				565726321F9E3AE800D9BEC4 /* StoryboardViewController.swift in Sources */,
 				5665F1ED1FA5AA8F009225F7 /* EndRepeatProvider.swift in Sources */,
+				91CA220B2061338D001AFA94 /* LineExpandSectionTitleHeaderTableViewProvider.swift in Sources */,
 				562075581FA40B10001D8896 /* DateSelectProvider.swift in Sources */,
+				91CA220920613324001AFA94 /* LineFriendsViewController.swift in Sources */,
 				2670E6631F83E1A0003A5BA7 /* ViewController.swift in Sources */,
 				568744751FA381DA00B5193C /* SelectedLocationProvider.swift in Sources */,
 				5626992D1FA51EE600290A70 /* EventOptionProvider.swift in Sources */,
 				563316361FAB6AF300627F5A /* SettingsViewController.swift in Sources */,
 				5665F1EF1FA5AAA8009225F7 /* RepeatGroupProvider.swift in Sources */,
+				91CA220D206134A9001AFA94 /* LineAppsTableViewProvider.swift in Sources */,
 				2670E6611F83E1A0003A5BA7 /* AppDelegate.swift in Sources */,
 				5665F1F61FA5CF73009225F7 /* CalendarEventObject.swift in Sources */,
 				2670E6A01F83EE5E003A5BA7 /* TextListProvider.swift in Sources */,
@@ -875,8 +908,10 @@
 				2617C2701F84D15C007F8228 /* Wireframe.swift in Sources */,
 				2670E6A31F83EE5E003A5BA7 /* TextSectionProvider.swift in Sources */,
 				5687446F1FA374E800B5193C /* EventEditViewController.swift in Sources */,
+				91CA220F2061366A001AFA94 /* LineFriendsTableViewProvider.swift in Sources */,
 				2666E4011F869656006F1918 /* NestFormViewController.swift in Sources */,
 				2617C2731F84D18B007F8228 /* String+URL.swift in Sources */,
+				91CA221320613862001AFA94 /* LineFriendRecommendationsTableViewProvider.swift in Sources */,
 				5634344A1FAD64FC00727CA1 /* TableViewProvider.swift in Sources */,
 				568744731FA3792F00B5193C /* SpacingSectionProvider.swift in Sources */,
 				5665F1F41FA5CB5F009225F7 /* TextViewProvider.swift in Sources */,
@@ -885,6 +920,7 @@
 				562594581FA0CCC300BF5756 /* SelectLocationViewController.swift in Sources */,
 				5622F6E31FA0DCFC00326201 /* MKLocalSearch+Rx.swift in Sources */,
 				2670E6A11F83EE5E003A5BA7 /* UniqueTextProvider.swift in Sources */,
+				91CA22112061382E001AFA94 /* LineIconTableViewProvider.swift in Sources */,
 				2617C2691F84D0FD007F8228 /* GithubSignupViewModel1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
